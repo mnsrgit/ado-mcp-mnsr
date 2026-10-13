@@ -1,25 +1,25 @@
 # Azure DevOps MCP Server
 
+[![MCPize](https://mcpize.com/badge/@mansooratdesign/azure-devops)](https://mcpize.com/mcp/azure-devops)
+
 > [!IMPORTANT]
 > We recommend using the [Remote MCP Server](https://learn.microsoft.com/en-us/azure/devops/mcp-server/remote-mcp-server) instead of this local server. It requires no installation and gets new features first.
 >
 > [Learn more](#remote-mcp-server-recommended)
 
+## Connect via MCPize
+
+Use this MCP server instantly with no local installation:
+
+```bash
+npx -y mcpize connect @mansooratdesign/azure-devops --client claude
+```
+
+Or connect at: **https://mcpize.com/mcp/azure-devops**
+
 This project gives AI agents access to Azure DevOps through the Model Context Protocol (MCP). Use the hosted remote server for the simplest setup, or run the local server when you need a `stdio` connection.
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Design](#design)
-3. [Remote MCP Server (Recommended)](#remote-mcp-server-recommended)
-4. [Supported Tools](#supported-tools)
-5. [Local MCP Server Installation (Optional)](#local-mcp-server-installation-optional)
-6. [Using Domains (Local Server)](#using-domains-local-server)
-7. [Project and Team Defaults (Local Server)](#project-and-team-defaults-local-server)
-8. [Troubleshooting](#troubleshooting)
-9. [Examples and Best Practices](#examples-and-best-practices)
-10. [Frequently Asked Questions](#frequently-asked-questions)
-11. [Contributing](#contributing)
+This project gives AI agents access to Azure DevOps through the Model Context Protocol (MCP). Use the hosted remote server for the simplest setup, or run the local server when you need a `stdio` connection.
 
 ## Overview
 
@@ -225,4 +225,4 @@ Licensed under the [MIT License](./LICENSE.md).
 
 _Trademarks: This project may include trademarks or logos for Microsoft or third parties. Use of Microsoft trademarks or logos must follow [Microsoft’s Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general). Third-party trademarks are subject to their respective policies._
 
-<!-- version: 2023-04-07 [Do not delete this line, it is used for analytics that drive template improvements] -->
+<!-- version: 2023-04-07 [Do not delete this line, it is
