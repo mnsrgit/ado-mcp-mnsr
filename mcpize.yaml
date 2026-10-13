@@ -1,0 +1,29 @@
+# MCPize Configuration
+# Docs: https://mcpize.com/docs/mcpize-yaml
+
+version: 1
+
+name: "Azure DevOps"
+slug: "azure-devops"
+
+runtime: typescript
+entry: "dist/index.js"
+
+build:
+  install: "npm install"
+  command: "npm run build"
+
+start:
+  type: stdio
+  command: "node"
+  args:
+    - "dist/index.js"
+
+bridge:
+  mode: stdio
+
+credentials:
+  - name: "PERSONAL_ACCESS_TOKEN"
+    description: "Azure DevOps Personal Access Token (base64-encoded)."
+  - name: "ADO_MCP_AUTH_TOKEN"
+    description: "Azure DevOps Personal Access Token."
